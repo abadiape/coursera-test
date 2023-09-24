@@ -1,0 +1,35 @@
+/*Base styles*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ul.dropdown-menu {
+	width: 100%;
+	background-color: greenyellow;
+}
+div.container-fluid {
+	height: 1024px;
+	background-color: orangered;
+	margin: 5% 1% 0;
+}
+h1, h3 {
+	color: #AAA;
+}
+h3 {
+	margin-top: 5px;
+}
+.navbar-brand {
+	font-size: 24px;
+	font-weight: bold;
+}
+p {
+	margin-bottom: 13px;
+	color: #AAA;
+}
+nav:has(.navbar-header.open) {
+	margin-bottom: 144px;
+}
+.navbar-default {
+	background-color: darkgray;
+}
